@@ -6,13 +6,13 @@ In this paper, we introduce a VAE-based pre-trained Transformer method for micro
 ![image](VTrans.png)
 
 ## Installations
-* 
+* Windows
+* NVIDIA GPU (both pretrained VAE and trained VTrans on a single Nvidia GeForce RTX 3090)
+``pip install -r requiremnts.txt``
 
 
 ## Pre-train VAE
-``python vae_main``
-
-
+``python pretrain_vae/vae_main.py``
 
 ## Training VTrans
-``python ``
+``python VTrans/main.py``
