@@ -6,7 +6,13 @@ In this paper, we introduce a VAE-based pre-trained Transformer method for micro
 ![image](VTrans.png)
 
 ## Installations
+* 
+
+
+## Pre-train VAE
+``python vae_main``
 
 
 
-## 
+## Training VTrans
+``python ``
